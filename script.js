@@ -92,27 +92,27 @@ db.topics.insertMany([
   {
     topic_id: 1,
     topic: "HTML",
-    topic_date: new Date("2021-10-01"),
+    topic_date: new Date("2023-06-01"),
   },
   {
     topic_id: 2,
     topic: "CSS",
-    topic_date: new Date("2021-10-10"),
+    topic_date: new Date("2023-06-10"),
   },
   {
     topic_id: 3,
     topic: "Javascript",
-    topic_date: new Date("2021-10-15"),
+    topic_date: new Date("2023-06-15"),
   },
   {
     topic_id: 4,
     topic: "React",
-    topic_date: new Date("2021-10-20"),
+    topic_date: new Date("2021-06-20"),
   },
   {
     topic_id: 5,
     topic: "NodeJs",
-    topic_date: new Date("2021-10-25"),
+    topic_date: new Date("2023-06-25"),
   },
 ]);
 
@@ -123,7 +123,7 @@ db.tasks.insertMany([
     topic_id: 1,
     "user-id": 1,
     task: "HTML task",
-    due_date: new Date("2021-10-05"),
+    due_date: new Date("2023-06-05"),
     submitted: true,
   },
   {
@@ -131,7 +131,7 @@ db.tasks.insertMany([
     topic_id: 2,
     "user-id": 2,
     task: "CSS task",
-    due_date: new Date("2021-10-15"),
+    due_date: new Date("2023-06-15"),
     submitted: true,
   },
   {
@@ -139,7 +139,7 @@ db.tasks.insertMany([
     topic_id: 3,
     "user-id": 3,
     task: "Javascript task",
-    due_date: new Date("2021-10-20"),
+    due_date: new Date("2023-06-20"),
     submitted: false,
   },
   {
@@ -147,7 +147,7 @@ db.tasks.insertMany([
     topic_id: 4,
     "user-id": 4,
     task: "React task",
-    due_date: new Date("2021-10-25"),
+    due_date: new Date("2023-06-25"),
     submitted: false,
   },
   {
@@ -155,7 +155,7 @@ db.tasks.insertMany([
     topic_id: 5,
     "user-id": 5,
     task: "Node task",
-    due_date: new Date("2021-10-30"),
+    due_date: new Date("2023-06-30"),
     submitted: false,
   },
 ]);
@@ -164,27 +164,27 @@ db.tasks.insertMany([
 db.company_drives.insertMany([
   {
     "user-id": 1,
-    drive_date: new Date("2021-10-05"),
+    drive_date: new Date("2023-06-05"),
     company_name: "Google",
   },
   {
     "user-id": 1,
-    drive_date: new Date("2021-10-10"),
+    drive_date: new Date("2023-06-10"),
     company_name: "Amazon",
   },
   {
     "user-id": 2,
-    drive_date: new Date("2021-10-20"),
+    drive_date: new Date("2023-06-20"),
     company_name: "Walmart",
   },
   {
     "user-id": 3,
-    drive_date: new Date("2021-10-15"),
+    drive_date: new Date("2023-06-15"),
     company_name: "Zoho",
   },
   {
     "user-id": 4,
-    drive_date: new Date("2021-10-30"),
+    drive_date: new Date("2023-06-30"),
     company_name: "Dell",
   },
 ]);
